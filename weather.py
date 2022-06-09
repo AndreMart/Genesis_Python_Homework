@@ -8,7 +8,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 CITY = str(input("Введіть назву міста англійськими літерами:"))
 
 # API
-API_KEY = "ae2e7230cfaa7cfc7890b0c434f8c109"
+API_KEY = "Your API Here"
 
 # Кінцевий API запит 
 URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY + "&units=metric" + "&lang=ua"
